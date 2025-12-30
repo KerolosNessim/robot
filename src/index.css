@@ -19,22 +19,20 @@ body {
   object-fit: contain;
   user-select: none;
   -webkit-user-drag: none;
+  margin: auto;
 }
 
 img.brain {
   z-index: 1;
-  width: 95%;
-  height: 95%;
-  margin: auto;
-  margin-top: 5%;
-  margin-right: 3%;
+  width: 90%;
+  height: 90%;
+
 }
 
 img.human {
   z-index: 2;
-  width: 86%;
-  height: 86%;
-  margin: auto;
+  width: 90%;
+  height: 90%;
 
   /* the mask */
   -webkit-mask-image: radial-gradient(

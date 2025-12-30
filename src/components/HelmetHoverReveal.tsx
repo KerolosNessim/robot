@@ -25,7 +25,7 @@ export default function HelmetHoverReveal() {
       onMouseMove={handleMove}
     >
       {/* brain image */}
-      <img className="brain" src="/brain2.png" alt="brain"  />
+      <img className="brain" src="/human.png" alt="brain"  />
 
       {/* human image */}
       <img
@@ -36,7 +36,7 @@ export default function HelmetHoverReveal() {
           {
             ["--x"]: pos.x,
             ["--y"]: pos.y,
-            ["--r"]: hover ? "300px" : "0px",
+            ["--r"]: hover ? "200px" : "0px",
           } as React.CSSProperties
         }
       />
